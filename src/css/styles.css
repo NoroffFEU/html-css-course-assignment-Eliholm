@@ -4,19 +4,13 @@
 /* These are marked with an underscore: */
 @import url("./variables.css");
 /* Feel free to add as many of these imports as you need */
-
-
+@import url("./index.css");
+@import url("./shop.css");
 
 body {
   margin: 0;
   background-color: #EAF4F8;
 }
-
-#main-picture {
-  height: 100vh;
-}
-
-/* Styles for navbar */
 
 .navbar {
   background-color: #000;
@@ -61,7 +55,7 @@ body {
 }
 
 .nav-links li a:hover {
-  color: #ff5500;
+  color: #fb7837;
 }
 .navbar-right {
   display: flex;
@@ -153,156 +147,3 @@ form button:hover {
   background-color: #cc4400;
 }
 
-/* Styles for home page */ 
-
-.homepage-content {
-  display: flex;
-  flex-direction: row;
-}
-
-.homepage-right {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  margin-left: 3rem;
-  justify-content: center;
-}
-
-#homepage-h1 {
-  font-size: 20rem;
-  font-weight: 300;
-  font-stretch: normal;
-  margin: 0;
-  font-family: "Jomhuria";
-  line-height: 10rem; 
-  letter-spacing: 0.3rem; 
-  color: rgb(0, 0, 0);  
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #fa712d; 
-}
-
-#homepage-h2 {
-  font-size: 1.5rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 300;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-#homepage-button {
-  font-size: 1.5rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 900;
-  border: 4px solid black;
-  padding: 1rem;
-  background-color: #ff5500;
-  max-width: 30rem;
-}
-
-#homepage-button:hover {
-  background-color: #cc4400;
-  cursor: pointer;
-}
-
-.jomhuria-regular {
-  font-family: "Jomhuria", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* Styles for shop page */
-
-.shop-page-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.womens-info {
-  display: flex;
-  flex-direction: column;
-  background-image: url("../images/womens.jpg");
-  background-color: aqua;
-}
-
-.mens-info {
-  display: flex;
-  flex-direction: column;
-  /*background-image: url("womens.jpg");*/
-  background-color: yellow;
-}
-
-.shop-text, .shop-title {
-  margin-left: 2rem;
-}
-
-.shop-text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.8rem;
-  padding-bottom: 2rem;
-}
-
-.shop-title {
-  font-family: "Ephesis";
-  font-size: 4rem;
-}
-
-.ephesis-regular {
-  font-family: "Ephesis", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.shop-jackets {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 5rem;
-}
-
-.jacket-card {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 2%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: lighter;
-}
-
-.jacket-card h2, h3 {
-  font-weight: 100;
-}
-
-.jacket-card:hover {
-  cursor: pointer;
-  filter: drop-shadow(5px 5px 5px #b8bfc3);
-}
-
-.jacket-image {
-  width: 20rem;
-  padding: 2rem;
-}
-
-.color-options {
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-}
-
-.color-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100px;
-}
-
-#green {
-  background-color: #706649;
-}
-
-#yellow {
-  background-color: #F5CE5A;
-}
-
-#burgundy {
-  background-color: #853030;
-}
