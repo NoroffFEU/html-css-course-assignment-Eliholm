@@ -5,15 +5,202 @@
 @import url("./variables.css");
 /* Feel free to add as many of these imports as you need */
 
+/* Styles for navigasjonsbar og footer */
+
 body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  margin: 0;
+  background-color: #EAF4F8;
 }
 
-.centered {
+#main-picture {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #000;
+  color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 300px;
+  max-width: 3rem;
+  padding-top: 0.2rem;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #ff5500;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.cart-count {
+  background-color: #cc4400;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*position: absolute;*/
+  bottom: 0;
+  width: 96%;
+  flex-wrap: wrap;
+}
+
+.outer-footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer-logo {
+  max-height: 14rem;
+ padding-left: 100px;
+}
+
+.footer-left ul {
+  list-style-type: none;
+  padding: 0, 2rem, 0, 2rem;
+}
+
+.footer-left ul li {
+  margin-bottom: 10px;
+  padding-top: 1rem;
+}
+
+.footer-left ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.social-icons a {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ff5500;
+}
+
+form input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #ff5500;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #cc4400;
+}
+
+.homepage-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.homepage-right {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
   justify-content: center;
-  text-align: center;
+}
+
+#homepage-h1 {
+  font-size: 20rem;
+  font-weight: 300;
+  font-stretch: normal;
+  margin: 0;
+  font-family: "Jomhuria";
+  line-height: 10rem; 
+  letter-spacing: 0.3rem; 
+  color: rgb(0, 0, 0); /* 
+  -webkit-text-stroke-width: 2px; /* Legg til kant rundt bokstavene */
+  -webkit-text-stroke-color: #fa712d; 
+}
+
+#homepage-h2 {
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#homepage-button {
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  border: 4px solid black;
+  padding: 1rem;
+  background-color: #ff5500;
+  max-width: 30rem;
+}
+
+#homepage-button:hover {
+  background-color: #cc4400;
+  cursor: pointer;
+}
+
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
 }
