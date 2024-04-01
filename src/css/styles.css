@@ -171,8 +171,8 @@ form button:hover {
   font-family: "Jomhuria";
   line-height: 10rem; 
   letter-spacing: 0.3rem; 
-  color: rgb(0, 0, 0); /* 
-  -webkit-text-stroke-width: 2px; /* Legg til kant rundt bokstavene */
+  color: rgb(0, 0, 0);  
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fa712d; 
 }
 
