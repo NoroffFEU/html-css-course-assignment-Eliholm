@@ -5,7 +5,7 @@
 @import url("./variables.css");
 /* Feel free to add as many of these imports as you need */
 
-/* Styles for navigasjonsbar og footer */
+
 
 body {
   margin: 0;
@@ -15,6 +15,8 @@ body {
 #main-picture {
   height: 100vh;
 }
+
+/* Styles for navbar */
 
 .navbar {
   background-color: #000;
@@ -73,6 +75,8 @@ body {
   border-radius: 50%;
 }
 
+/* Styles for footer */
+
 footer {
   background-color: #000000;
   color: #fff;
@@ -81,9 +85,9 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /*position: absolute;*/
+ /* position: fixed;*/
   bottom: 0;
-  width: 96%;
+  width: 100%;
   flex-wrap: wrap;
 }
 
@@ -150,6 +154,8 @@ form button:hover {
   background-color: #cc4400;
 }
 
+/* Styles for home page */ 
+
 .homepage-content {
   display: flex;
   flex-direction: row;
@@ -204,3 +210,5 @@ form button:hover {
   font-weight: 400;
   font-style: normal;
 }
+
+/* Styles for shop page */
