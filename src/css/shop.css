@@ -6,8 +6,8 @@
   .womens-info, .mens-info {
     display: flex;
     flex-direction: column;
-    /*background-image: url('assets/images/womens.jpg'); */
-    background-color: #abb8bf;
+    background-image: url('assets/images/womens.jpg'); 
+   /* background-color: #abb8bf;*/
   }
   
   .shop-text, .shop-title {
@@ -55,6 +55,16 @@
   .jacket-card h2, h3 {
     font-weight: 100;
     padding-top: 1rem;
+  }
+
+  .jacket-card h2 {
+    font-size: 1.2rem;
+  }
+
+  .jacket-card h3 {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
   }
   
   .jacket-card:hover {
