@@ -27,6 +27,8 @@
 .about-container {
     display: flex;
     flex-direction: column;
+    background-color: #CFE8F2;
+    text-align: center;
 }
 
 .about-pictures {
@@ -34,5 +36,26 @@
 }
 
 .about-pictures img {
-    width: 34%;
+    width: 33.3%;
+}
+
+.about-information {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--p-size);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+}
+
+.about-information h4 {
+    font-size: 1rem;
+}
+
+.about-section {
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    background-color: #CFE8F2;
 }

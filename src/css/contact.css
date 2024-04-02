@@ -1,0 +1,24 @@
+.contact-container {
+    display: flex;
+    height: 500px;
+    margin: 5rem;
+}
+
+.contact-left, .contact-right {
+    width: 50%;
+}
+
+.contact-right img {
+    height: 500px;
+}
+
+.contact-left {
+    background-color: white;
+    padding: 1.5rem;
+    font-size: var(--p-size);
+}
+
+.contact-left h1 {
+    font-family: "Ephesis";
+    font-size: 3rem;
+}
