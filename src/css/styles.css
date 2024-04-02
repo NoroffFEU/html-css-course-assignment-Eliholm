@@ -64,7 +64,7 @@ body {
 }
 
 .cart-count {
-  background-color: #cc4400;
+  background-color: var(--color-orange);
   color: #fff;
   padding: 3px 6px;
   border-radius: 50%;
@@ -146,5 +146,27 @@ form button {
 
 form button:hover {
   background-color: #cc4400;
+}
+
+/* Button styles */
+
+.shop-button {
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: fit-content;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1.5px solid black;
+}
+
+.shop-button:hover {
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px #b8bfc3);
 }
 

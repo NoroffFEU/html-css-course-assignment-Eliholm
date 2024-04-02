@@ -5,7 +5,7 @@
 
 .jacket-picture {
     width: 50%;
-    background-color: #EAF4F8;
+    background-color: --color-lightblue;
     justify-content: center;
     align-items: center;
 }
@@ -23,7 +23,48 @@
 }
 
 #product-picture {
-    max-width: 30rem;
+    width: 50%;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
+.jacket-info h1, h2, h3, p, button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jacket-info h1, h2 , h3 {
+    font-weight: 600;
+}
+
+.jacket-info {
+    font-size: var(--p-size);
+}
+
+.size-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    width: 40px;
+    height: 40px; 
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1.5px solid black;
+    margin: 5px;
+  }
+
+  .size-button::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+
+  .size-button:hover {
+    filter: drop-shadow(5px 5px 5px #b8bfc3);
+  }
