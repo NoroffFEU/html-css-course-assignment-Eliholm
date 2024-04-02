@@ -6,6 +6,7 @@
 /* Feel free to add as many of these imports as you need */
 @import url("./index.css");
 @import url("./shop.css");
+@import url("./product.css");
 
 body {
   margin: 0;
