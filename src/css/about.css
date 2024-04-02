@@ -1,0 +1,38 @@
+.about-founders {
+    display: flex;
+}
+
+.about-founders img {
+    width: 50vw;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.about-text {
+    padding-left: 2rem;
+    padding-right: 15rem;
+    padding-top: 5rem;
+}
+
+.about-text p {
+    font-size: var(--p-size);
+    padding-top: 1rem;
+}
+
+.about-text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-pictures {
+    display: flex;
+}
+
+.about-pictures img {
+    width: 34%;
+}
