@@ -9,6 +9,7 @@
 @import url("./product.css");
 @import url("./about.css");
 @import url("./contact.css");
+@import url("./cart.css");
 
 body {
   margin: 0;
