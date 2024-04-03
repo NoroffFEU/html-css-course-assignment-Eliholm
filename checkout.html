@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rainy Days - Home</title>
+      <link rel="stylesheet" href="src/css/styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+
+  <!--TO DO- Make good descriptions and titles-->
+  </head>
+  <body>
+      <nav class="navbar">
+          <div class="navbar-left">
+              <ul class="nav-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>       
+          </div>
+          <div class="navbar-middle">
+              <img src="assets/images/logo2.png" alt="Rainy Days Logo" class="logo">
+          </div>
+          <div class="navbar-right">
+              <a href="#"><i class="wishlist"></i></a>
+              <a href="#"><i class="cart"></i> <span class="cart-count">0</span></a>
+          </div>
+      </nav>
+  <main>
+    <div class="checkout-content">
+    <section>
+        <div class="checkout-container">
+            <h1>SHIPPING INFORMATION</h1>
+            <div class="form-row">
+                <label class="form-label">First Name *</label>
+                <input type="text" class="form-input" required>
+             </div>
+            <div class="form-row">
+                <label class="form-label">Last Name *</label>
+                <input type="text" class="form-input" required>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Street Address <span class="red">*</span></label>
+                <input type="text" class="form-input" required>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Postal Code <span class="red"><span class="red">*</span></span></label>
+                <input type="text" class="form-input" required>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Town/City <span class="red">*</span></label>
+                <input type="text" class="form-input" required>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Country <span class="red">*</span></label>
+                <select class="form-input" required>
+                    <option value="">Select Country</option>
+                    <option value="NO">Norway</option>
+                    <option value="SE">Sweden</option>
+                    <option value="DK">Denmark</option>
+                    <option value="FI">Finland</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Phone Number</label>
+                <input type="tel" class="form-input">
+            </div>
+            <div class="form-row">
+                <label class="form-label">E-mail Address <span class="red">*</span></label>
+                <input type="email" class="form-input">
+            </div>
+            <div class="form-row">
+                <p><span class="red">*</span> Required fields</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="payment-container">
+            <h1>PAYMENT INFORMATION</h1>
+              <div class="section">
+              <div class="form-row">
+                <input type="radio" id="credit-card" name="payment-method" value="credit-card">
+                <label for="credit-card">CREDIT CARD</label>
+              </div>
+            </div>
+            <div class="section">
+              <div class="form-row">
+                <label class="form-label" for="card-number">Card Number *</label>
+                <input type="text" class="form-input" id="card-number" required>
+              </div>
+            </div>
+            <div class="section">
+              <div class="form-row">
+                <label class="form-label">Expiration (MM/YY) *</label>
+                <input type="text" class="form-input" required>
+                <label class="form-label">Card Security Code *</label>
+                <input type="text" class="form-input" required>
+              </div>
+            </div>
+            <button class="btn">COMPLETE PURCHASE</button>
+    </section>
+    </div>
+  </main>
+  
+      <footer>
+          <div class="footer-left">
+              <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li>Shipping & Returns</li>
+                  <li>Terms & Conditions</li>
+              </ul>
+          </div>
+          <div class="footer-center">
+              <img src="assets/images/logo.png" alt="Rainy Days Logo" class="footer-logo">
+          </div>
+          <div class="footer-right">
+              <div>
+                  <h3>Join Our Community</h3>
+                  <p>Follow for adventure tips and community stories</p>
+                  <div class="social-icons">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
+              </div>
+              <div>
+                  <h3>Newsletter Sign Up</h3>
+                  <p>Stay up to date on our latest news and products</p>
+                  <form action="#">
+                      <input type="email" placeholder="Your email address">
+                      <button type="submit">SIGN UP</button>
+                  </form>
+              </div>
+          </div>
+      </footer>
+  
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </body>
+  </html>
+</body>
+</html>

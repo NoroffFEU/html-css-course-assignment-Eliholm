@@ -10,6 +10,7 @@
 @import url("./about.css");
 @import url("./contact.css");
 @import url("./cart.css");
+@import url("./checkout.css");
 
 body {
   margin: 0;
