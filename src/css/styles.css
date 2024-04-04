@@ -192,5 +192,6 @@ form button:hover {
 }
 
 .title {
-  font-size: var(--title1-sizes);
+  font-size: var(--title1-size);
+  padding-bottom: 1rem;
 }
