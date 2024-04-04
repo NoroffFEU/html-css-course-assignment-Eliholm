@@ -6,15 +6,18 @@
   .womens-info, .mens-info {
     display: flex;
     flex-direction: column;
+    background-color: #CFE8F2;
   }
 
+  /*
   .womens-info {
-    background-image: url('header/womens.jpg');
+    background-image: url('header/mountain.jpg');
   }
 
   .mens-info {
     background-image: url('header/mens.jpg');
   }
+  */
   
   .shop-text, .shop-title {
     margin-left: 2rem;

@@ -75,6 +75,7 @@ p, h1, h2, h3, h4 {
 .navbar-right {
   display: flex;
   align-items: center;
+  padding-right: 1rem;
 }
 
 .cart-count {
@@ -131,16 +132,13 @@ footer {
   flex-direction: column;
 }
 
-
-
-.social-icons a {
-  margin-right: 10px;
-  color: #fff;
-  text-decoration: none;
+.social-icons img {
+  width: 3rem;
+  padding-right: 1rem;
 }
 
-.social-icons a:hover {
-  color: #ff5500;
+.navbar-right img {
+  width: 2rem;
 }
 
 form input[type="email"] {
