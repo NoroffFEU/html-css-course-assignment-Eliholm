@@ -189,3 +189,7 @@ form button:hover {
   font-family: "Ephesis";
   font-size: 3rem;
 }
+
+.title {
+  font-size: var(--title1-size);
+}

@@ -31,15 +31,36 @@
       </nav>
   <main>
     <div class="checkout-content">
+        <section class="order-summary">
+            <h1 class="title">ORDER SUMMARY</h1>
+            <div class="cart-summary">
+                <img src="assets/images/RainyDays_Jacket7-removebg.png" alt="Tundra Fleece Jacket" class="item-picture">
+                <div class="item-summary">
+                    <h2>Tundra Fleece Jacket</h2>
+                    <p>Khaki Green, M</p>
+                    <p>Qty: 1</p>
+                </div>          
+            </div>
+            <section class="price-info">
+                <p>Subtotal:   $69</p>
+                <p>Shipping:   <span class="bold">FREE</span></p>
+                <p class="bold">TOTAL TO PAY:   $69</p>
+                <div class="form-row">
+                        <label class="form-label"></label>
+                        <input type="text" class="form-input" placeholder="Gift card or discount code">
+                        <button class="shop-button">APPLY</button>
+            </section>
+        </section>
+
     <section>
         <div class="checkout-container">
-            <h1>SHIPPING INFORMATION</h1>
+            <h2 class="title">SHIPPING INFORMATION</h2>
             <div class="form-row">
-                <label class="form-label">First Name *</label>
+                <label class="form-label">First Name <span class="red">*</span></label>
                 <input type="text" class="form-input" required>
              </div>
             <div class="form-row">
-                <label class="form-label">Last Name *</label>
+                <label class="form-label">Last Name <span class="red">*</span></label>
                 <input type="text" class="form-input" required>
             </div>
             <div class="form-row">
@@ -80,30 +101,29 @@
 
     <section>
         <div class="payment-container">
-            <h1>PAYMENT INFORMATION</h1>
+            <h3 class="title">PAYMENT INFORMATION</h3>
               <div class="section">
               <div class="form-row">
-                <input type="radio" id="credit-card" name="payment-method" value="credit-card">
-                <label for="credit-card">CREDIT CARD</label>
+                <label for="credit-card">Credit Card</label>
+                <input type="radio" id="credit-card" name="payment-method" value="credit-card">               
               </div>
             </div>
             <div class="section">
               <div class="form-row">
-                <label class="form-label" for="card-number">Card Number *</label>
+                <label class="form-label" for="card-number">Card Number <span class="red">*</span></label>
                 <input type="text" class="form-input" id="card-number" required>
               </div>
             </div>
             <div class="section">
               <div class="form-row">
-                <label class="form-label">Expiration (MM/YY) *</label>
+                <label class="form-label">Expiration (MM/YY) <span class="red">*</span></label>
                 <input type="text" class="form-input" required>
-                <label class="form-label">Card Security Code *</label>
+                <label class="form-label" id="code">Card Security Code <span class="red">*</span></label>
                 <input type="text" class="form-input" required>
               </div>
             </div>
-            <button class="btn">COMPLETE PURCHASE</button>
+            <button class="shop-button">COMPLETE PURCHASE</button>
     </section>
-    </div>
   </main>
   
       <footer>

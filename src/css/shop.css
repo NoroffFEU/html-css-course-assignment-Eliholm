@@ -6,8 +6,14 @@
   .womens-info, .mens-info {
     display: flex;
     flex-direction: column;
-    background-image: url('assets/images/womens.jpg'); 
-   /* background-color: #abb8bf;*/
+  }
+
+  .womens-info {
+    background-image: url('header/womens.jpg');
+  }
+
+  .mens-info {
+    background-image: url('header/mens.jpg');
   }
   
   .shop-text, .shop-title {
@@ -15,8 +21,8 @@
   }
   
   .shop-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:var(--p-size);
     padding-bottom: 2rem;
   }
   
