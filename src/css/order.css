@@ -1,0 +1,28 @@
+.order-complete {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 35%;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: var(--p-size);
+    border-radius: 5px;
+}
+
+.order-complete button {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.order-complete h1 {
+    font-family: "Ephesis";
+    font-size: 5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.complete-text {
+    border-top: 1px solid black;
+}

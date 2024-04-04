@@ -11,6 +11,7 @@
 @import url("./contact.css");
 @import url("./cart.css");
 @import url("./checkout.css");
+@import url("./order.css");
 
 body {
   margin: 0;
@@ -191,5 +192,5 @@ form button:hover {
 }
 
 .title {
-  font-size: var(--title1-size);
+  font-size: var(--title1-sizes);
 }
