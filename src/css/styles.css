@@ -12,6 +12,7 @@
 @import url("./cart.css");
 @import url("./checkout.css");
 @import url("./order.css");
+@import url("./burger.css");
 
 body {
   margin: 0;
