@@ -130,9 +130,3 @@ h3 {
     margin-left: 1.5rem;
   }
 }
-
-@media only screen and (min-width: 600px) {
-  .jacket-card {
-    background-color: aqua;
-  }
-}
