@@ -40,12 +40,6 @@
   padding-left: 15rem;
 }
 
-/*.count {
-    background-color: rgba(221, 221, 221, 0.823);
-    padding: 1.2rem;
-    border-radius: 50%;
-}*/
-
 .item-summary {
   font-size: var(--p-size);
   margin-right: auto;
@@ -59,7 +53,6 @@
 .price-info {
   padding-top: 2rem;
   font-size: var(--p-size);
-  margin-left: auto;
 }
 
 .bold {
@@ -71,10 +64,15 @@
   font-weight: bold;
 }
 
+.count {
+  display: flex;
+  flex-direction: row;
+}
+
 @media only screen and (max-width: 600px) {
-  .price-info {
+  /*.price-info {
     margin: auto;
-  }
+  }*/
 
   .cart-container h1 {
     margin: auto;

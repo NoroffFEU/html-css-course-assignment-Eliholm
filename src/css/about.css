@@ -1,66 +1,73 @@
 .about-founders {
-    display: flex;
+  display: flex;
 }
 
 .about-founders img {
-    width: 50vw;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  width: 50vw;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .about-text {
-    padding-left: 2rem;
-    padding-right: 15rem;
-    padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 15rem;
+  padding-top: 5rem;
 }
 
 .about-text p {
-    font-size: var(--p-size);
-    padding-top: 1rem;
+  font-size: var(--p-size);
+  padding-top: 1rem;
 }
 
-#about-title1, #about-title2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5rem;
-    transform: translate(-41%, 0);
+#about-title1,
+#about-title2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  transform: translate(-41%, 0);
 }
 
 #about-title2 {
-    transform: translate(-25%, -60%);
+  transform: translate(-25%, -60%);
 }
 
 .about-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #CFE8F2;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #cfe8f2;
+  text-align: center;
 }
 
 .about-pictures {
-    display: flex;
+  display: flex;
 }
 
 .about-pictures img {
-    width: 33.3%;
+  width: 33.3%;
 }
 
 .about-information {
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: var(--p-size);
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--p-size);
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
 }
 
-.about-information h4, h5, h6 {
-    font-size: 1rem;
+.about-information h4,
+h5,
+h6 {
+  font-size: 1rem;
 }
 
 .about-section {
-    display: flex;
-    text-align: center;
-    padding: 1rem;
-    background-color: #CFE8F2;
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+  background-color: #cfe8f2;
+}
+
+.burger {
+  display: none;
 }

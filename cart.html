@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-        description="Review the items in your shopping cart on Rainy Days. Easily manage your purchases and proceed to checkout for a seamless shopping experience. Explore now and ensure you have everything you need before completing your order.">
+    <meta name="description"
+        content="Review the items in your shopping cart on Rainy Days. Easily manage your purchases and proceed to checkout for a seamless shopping experience. Explore now and ensure you have everything you need before completing your order.">
     <title>View Your Shopping Cart - Rainy Days</title>
     <link rel="stylesheet" href="src/css/styles.css">
 </head>
@@ -26,7 +26,7 @@
         <div class="navbar-right">
             <a href="cart.html">
                 <img src="assets/images/shoppingbag.jpg" alt="Shopping Bag Icon"></a>
-            <p>(0)</p>
+            <p>(1)</p>
             <a href="burger.html"><img src="assets/images/burger.jpg" alt="Burger Menu Icon" id="burger"></a>
         </div>
     </nav>
@@ -41,7 +41,9 @@
                     <p class="in-stock">In stock</p>
                 </div>
                 <div class="cartcount">
-                    <p>+ 1 -</p>
+                    <div class="count">
+                        <p>+ 1 -</p>
+                    </div>
                     <p>$69</p>
                     <p>X</p>
                 </div>
@@ -50,7 +52,7 @@
                 <p>Item total: $69</p>
                 <p>Shipping: <span class="bold">FREE</span></p>
                 <p class="bold">Total: $69</p>
-                <button class="shop-button"><a href="checkout.html">CONTINUE CHECKOUT</a></button>
+                <div class="shop-button"><a href="checkout.html">CONTINUE CHECKOUT</a></div>
             </section>
         </section>
     </main>
@@ -58,8 +60,8 @@
     <footer>
         <div class="footer-left">
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
                 <li>Shipping & Returns</li>
                 <li>Terms & Conditions</li>
             </ul>
@@ -95,9 +97,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</body>
-
-</html>
 </body>
 
 </html>

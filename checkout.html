@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-        description="Finalize your order securely and conveniently on Rainy Days. Our streamlined checkout process ensures a hassle-free shopping experience. Enter your details, choose your preferred payment method, and enjoy fast delivery. Shop now and experience seamless checkout!">
+    <meta name="description"
+        content="Finalize your order securely and conveniently on Rainy Days. Our streamlined checkout process ensures a hassle-free shopping experience. Enter your details, choose your preferred payment method, and enjoy fast delivery. Shop now and experience seamless checkout!">
     <title>Secure Checkout - Complete Your Purchase on Rainy Days</title>
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
         <div class="navbar-right">
             <a href="cart.html">
                 <img src="assets/images/shoppingbag.jpg" alt="Shopping Bag Icon"></a>
-            <p>(0)</p>
+            <p>(1)</p>
             <a href="burger.html"><img src="assets/images/burger.jpg" alt="Burger Menu Icon" id="burger"></a>
         </div>
     </nav>
@@ -54,6 +54,7 @@
                         <label class="form-label"></label>
                         <input type="text" class="form-input" placeholder="Gift card or discount code">
                         <button class="shop-button">APPLY</button>
+                    </div>
                 </section>
             </section>
 
@@ -128,15 +129,17 @@
                             <input type="text" class="form-input" required>
                         </div>
                     </div>
-                    <button class="shop-button"><a href="order.html">COMPLETE PURCHASE</a></button>
+                    <div class="shop-button"><a href="order.html">COMPLETE PURCHASE</a></div>
+                </div>
             </section>
+        </div>
     </main>
 
     <footer>
         <div class="footer-left">
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
                 <li>Shipping & Returns</li>
                 <li>Terms & Conditions</li>
             </ul>
@@ -145,30 +148,35 @@
             <img src="assets/images/logo.png" alt="Rainy Days Logo" class="footer-logo">
         </div>
         <div class="footer-right">
-            <div>
-                <h3>Join Our Community</h3>
-                <p>Follow for adventure tips and community stories</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+            <div class="footer-right">
+                <div>
+                    <h3>Join Our Community</h3>
+                    <p>Follow for adventure tips and community stories</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com">
+                            <img src="assets/images/facebook2.jpg" alt="Facebook Icon">
+                        </a>
+                        <a href="https://www.instagram.com">
+                            <img src="assets/images/instagram2.jpg" alt="Instagram Icon">
+                        </a>
+                        <a href="https://www.youtube.com/">
+                            <img src="assets/images/youtube2.jpg" alt="Youtube Icon">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <h3>Newsletter Sign Up</h3>
-                <p>Stay up to date on our latest news and products</p>
-                <form action="#">
-                    <input type="email" placeholder="Your email address">
-                    <button type="submit">SIGN UP</button>
-                </form>
+                <div>
+                    <h3>Newsletter Sign Up</h3>
+                    <p>Stay up to date on our latest news and products</p>
+                    <form action="#">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">SIGN UP</button>
+                    </form>
+                </div>
             </div>
         </div>
     </footer>
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</body>
-
-</html>
 </body>
 
 </html>
