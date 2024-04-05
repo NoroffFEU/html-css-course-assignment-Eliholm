@@ -177,7 +177,7 @@ form button:hover {
 
 .shop-button {
   background-color: #fff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -188,6 +188,7 @@ form button:hover {
   border-radius: 5px;
   margin-bottom: 20px;
   border: 1.5px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .shop-button:hover {

@@ -1,38 +1,43 @@
 .cart-container {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-left: 10%;
-    margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .cart-container h1 {
-    font-size: 2rem;
-    text-decoration: underline;
-    margin-left: 2rem;
-    font-weight: 500;
-    margin-bottom: 3rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin-left: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .item-picture {
-    width: 6rem;
-    height: 6rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 .cart-summary {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .cartcount {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.cartcount p {
+  padding-left: 15rem;
 }
 
 /*.count {
@@ -42,26 +47,42 @@
 }*/
 
 .item-summary {
-    font-size: var(--p-size);
-    margin-right: auto;
-    padding-left: 2rem;
+  font-size: var(--p-size);
+  margin-right: auto;
+  padding-left: 2rem;
 }
 
 .item-summary h2 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .price-info {
-    padding-top: 2rem;
-    font-size: var(--p-size);
-    margin-left: auto;
+  padding-top: 2rem;
+  font-size: var(--p-size);
+  margin-left: auto;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .in-stock {
-    color: green;
-    font-weight: bold;
+  color: green;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .price-info {
+    margin: auto;
+  }
+
+  .cart-container h1 {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .payment-container {
+    margin-top: 0;
+  }
 }
