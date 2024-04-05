@@ -16,6 +16,7 @@
 body {
   margin: 0;
   background-color: #EAF4F8;
+  width: 100%
 }
 
 a {
@@ -61,7 +62,7 @@ p, h1, h2, h3, h4 {
   display: inline-block;
   margin-right: 20px;
   margin-left: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-links li a {
@@ -72,6 +73,7 @@ p, h1, h2, h3, h4 {
 .nav-links li a:hover {
   color: #fb7837;
 }
+
 .navbar-right {
   display: flex;
   align-items: center;
@@ -192,4 +194,37 @@ form button:hover {
 .title {
   font-size: var(--title1-size);
   padding-bottom: 1rem;
+}
+
+/*Breakpoints: <600px, >601px, >768px, >992px, >1200px */
+
+@media only screen and (max-width: 600px) {
+
+  .navbar {
+    width: 100vw;
+    padding-left: 1rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .footer-left ul {
+    padding: 0;
+  }
+
+  .logo {
+    padding-left: 0;
+  }
+
+  .navbar-right, .navbar-left {
+    display: none;
+  }
+
+
+
 }

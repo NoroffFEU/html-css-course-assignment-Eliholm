@@ -44,6 +44,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 5rem;
+    flex-wrap: wrap;
   }
   
   .shop-picture {
@@ -99,5 +100,31 @@
     width: 100px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .jacket-card {
+      margin: auto;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .shop-jackets {
+      padding: 0;
+    }
+
+    .shop-text {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:var(--p-size);
+      padding-bottom: 0;
+      margin-right: 1rem;
+    }
+
+    .shop-title {
+      font-family: "Ephesis";
+      font-size: 4rem;
+      margin: 0;
+      margin-left: 1.5rem;
+    }
   }
   
