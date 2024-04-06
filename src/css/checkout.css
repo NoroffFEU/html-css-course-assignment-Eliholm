@@ -88,4 +88,33 @@
   .checkout-content {
     margin: 0;
   }
+
+  .checkout-container {
+    margin: 0;
+  }
+
+  .payment-container {
+    margin: 2rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .order-summary {
+    margin: 2rem;
+  }
+
+  .checkout-content {
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .checkout-container {
+    margin: 0;
+  }
+
+  .payment-container {
+    margin: 2rem;
+  }
 }

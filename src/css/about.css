@@ -71,3 +71,94 @@ h6 {
 .burger {
   display: none;
 }
+
+@media only screen and (max-width: 992px) {
+  .about-founders {
+    width: 100%;
+  }
+
+  .about-founders img {
+    display: none;
+  }
+
+  .title-container {
+    display: none;
+  }
+
+  .about-text {
+    width: 100%;
+    padding-right: 2rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+
+  .about-container h3 {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .about-section {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+  }
+
+  .about-information {
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .about-information h6 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1440px) {
+  .about-founders {
+    width: 100%;
+  }
+
+  .about-founders img {
+    width: 50%;
+    height: 50%;
+  }
+
+  #about-title1,
+  #about-title2 {
+    transform: translate(0, 0);
+    font-size: 50px;
+  }
+
+  .about-text {
+    width: 100%;
+    padding-right: 2rem;
+    padding-top: 0;
+    padding-bottom: 5rem;
+    margin: auto;
+  }
+
+  .about-container h3 {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .about-section {
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-information {
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-information h6 {
+    margin-bottom: 1rem;
+  }
+}
