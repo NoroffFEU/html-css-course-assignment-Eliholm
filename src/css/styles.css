@@ -18,6 +18,7 @@ body {
   margin: 0;
   background-color: #eaf4f8;
   width: 100%;
+  height: fit-content;
 }
 
 a {
@@ -110,6 +111,7 @@ footer {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   flex-wrap: wrap;
+  bottom: 0;
 }
 
 .outer-footer-container {

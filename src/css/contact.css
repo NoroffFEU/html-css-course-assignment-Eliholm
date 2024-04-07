@@ -1,53 +1,121 @@
 .contact-container {
-    display: flex;
-    height: 500px;
-    margin: 5rem;
+  display: flex;
+  height: 500px;
+  margin: 5rem;
 }
 
-.contact-left, .contact-right {
-    width: 50%;
-    border-radius: 5px;
+.contact-left,
+.contact-right {
+  width: 50%;
+  border-radius: 5px;
 }
 
 .contact-right img {
-    height: 500px;
+  height: 500px;
 }
 
 .contact-left {
-    background-color: white;
-    padding-left: 1.5rem;
-    font-size: var(--p-size);
-    padding-top: 0;
+  background-color: white;
+  padding-left: 1.5rem;
+  font-size: var(--p-size);
+  padding-top: 0;
 }
 
 .contact-left h1 {
-    font-family: "Ephesis";
-    font-size: 3rem;
-    margin-top: 1rem;
+  font-family: "Ephesis";
+  font-size: 3rem;
+  margin-top: 1rem;
 }
 
 .contact-info {
-    display: flex;
-    justify-content: space-between;
-    transform: translate(-50%, -150%);
+  display: flex;
+  justify-content: space-between;
+  transform: translate(-50%, -150%);
 }
 
 .contact-details {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    width: 15rem;
-    border-radius: 5px;
-    filter: drop-shadow(5px 5px 5px #343434);
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 5px;
+  filter: drop-shadow(5px 5px 5px #343434);
 }
 
 .contact-details p {
-    font-size: var(--p-size);
+  font-size: var(--p-size);
 }
 
 .contact-title {
-    font-size: var(--title1-size);
+  font-size: var(--title1-size);
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: fit-content;
+  }
+
+  .contact-left {
+    margin: auto;
+    width: 80%;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .contact-left h1 {
+    text-align: center;
+  }
+
+  .contact-right img {
+    display: none;
+  }
+
+  .contact-right {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    transform: translate(0, 0);
+    margin: auto;
+  }
+
+  .contact-details {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+  .contact-right img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .contact-details {
+    margin: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact-info {
+    transform: translate(-250px, -250px);
+  }
+
+  #burger {
+    margin-right: 1.5rem;
+  }
 }

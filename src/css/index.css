@@ -13,6 +13,7 @@
   color: rgb(0, 0, 0);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fa712d;
+  width: 500px;
 }
 
 #homepage-h2 {
@@ -80,12 +81,11 @@
   }
 
   #homepage-h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     line-height: normal;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
   }
 
   #homepage-h2 {
@@ -139,28 +139,44 @@
   #homepage-button {
     margin-bottom: 2rem;
   }
-
-  .homepage-right {
-    margin-left: 0;
-  }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .homepage-content {
+    display: flex;
+    flex-direction: column;
+  }
+
   #homepage-h1 {
     font-size: 15rem;
     padding-top: 3rem;
     line-height: 7rem;
+    width: 800px;
   }
 
   #homepage-h2 {
     font-size: 1rem;
-    padding: 1rem;
+    margin-left: 0;
+  }
+
+  #homepage-h1,
+  #homepage-h2,
+  #homepage-button {
+    margin: auto;
   }
 
   #homepage-button {
     margin: auto;
-    margin-left: 0;
-    padding-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #main-picture {
+    height: 100%;
+  }
+
+  .homepage-right {
+    margin: auto;
+    width: 100%;
   }
 }
 
@@ -174,5 +190,14 @@
   #homepage-h2 {
     font-size: 1.1rem;
     padding: 1rem;
+  }
+
+  .navbar,
+  .footer {
+    width: 100vw;
+  }
+
+  .homepage-right {
+    margin: 2rem;
   }
 }
