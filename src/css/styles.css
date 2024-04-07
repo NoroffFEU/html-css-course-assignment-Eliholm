@@ -40,6 +40,10 @@ h6 {
   display: none;
 }
 
+#email-label {
+  display: none;
+}
+
 .navbar {
   background-color: #000;
   color: #fff;
@@ -163,7 +167,7 @@ form input[type="email"] {
 
 form button {
   padding: 10px 20px;
-  background-color: #ff5500;
+  background-color: var(--color-orange);
   border: none;
   color: #fff;
   border-radius: 5px;
@@ -209,7 +213,7 @@ form button:hover {
   padding-bottom: 1rem;
 }
 
-/*Breakpoints: <600px, >601px, >768px, >992px, >1200px */
+/* Responsiveness styling */
 
 @media only screen and (max-width: 800px) {
   #burger {
