@@ -1,0 +1,164 @@
+.about-founders {
+  display: flex;
+}
+
+.about-founders img {
+  width: 50vw;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.about-text {
+  padding-left: 2rem;
+  padding-right: 15rem;
+  padding-top: 5rem;
+}
+
+.about-text p {
+  font-size: var(--p-size);
+  padding-top: 1rem;
+}
+
+#about-title1,
+#about-title2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  transform: translate(-41%, 0);
+}
+
+#about-title2 {
+  transform: translate(-25%, -60%);
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #cfe8f2;
+  text-align: center;
+}
+
+.about-pictures {
+  display: flex;
+}
+
+.about-pictures img {
+  width: 33.3%;
+}
+
+.about-information {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--p-size);
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
+}
+
+.about-information h4,
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+.about-section {
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+  background-color: #cfe8f2;
+}
+
+.burger {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .about-founders {
+    width: 100%;
+  }
+
+  .about-founders img {
+    display: none;
+  }
+
+  .title-container {
+    display: none;
+  }
+
+  .about-text {
+    width: 100%;
+    padding-right: 2rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+
+  .about-container h3 {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .about-section {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+  }
+
+  .about-information {
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .about-information h6 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1440px) {
+  .about-founders {
+    width: 100%;
+  }
+
+  .about-founders img {
+    width: 50%;
+    height: 50%;
+  }
+
+  #about-title1,
+  #about-title2 {
+    transform: translate(0, 0);
+    font-size: 50px;
+  }
+
+  .about-text {
+    width: 100%;
+    padding-right: 2rem;
+    padding-top: 0;
+    padding-bottom: 5rem;
+    margin: auto;
+  }
+
+  .about-container h3 {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .about-section {
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-information {
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-information h6 {
+    margin-bottom: 1rem;
+  }
+}

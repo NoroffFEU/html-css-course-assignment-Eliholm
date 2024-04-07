@@ -4,16 +4,253 @@
 /* These are marked with an underscore: */
 @import url("./variables.css");
 /* Feel free to add as many of these imports as you need */
+@import url("./index.css");
+@import url("./shop.css");
+@import url("./product.css");
+@import url("./about.css");
+@import url("./contact.css");
+@import url("./cart.css");
+@import url("./checkout.css");
+@import url("./order.css");
+@import url("./burger.css");
 
 body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  margin: 0;
+  background-color: #eaf4f8;
+  width: 100%;
+  height: fit-content;
 }
 
-.centered {
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#burger {
+  display: none;
+}
+
+#email-label {
+  display: none;
+}
+
+.navbar {
+  background-color: #000;
+  color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 300px;
+  max-width: 3rem;
+  padding-top: 0.2rem;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #fb7837;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.cart-count {
+  background-color: var(--color-orange);
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+
+/* Styles for footer */
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  flex-wrap: wrap;
+  bottom: 0;
+}
+
+.outer-footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer-logo {
+  max-height: 14rem;
+  padding-left: 100px;
+}
+
+.footer-left ul {
+  list-style-type: none;
+  padding: 0, 2rem, 0, 2rem;
+}
+
+.footer-left ul li {
+  margin-bottom: 10px;
+  padding-top: 1rem;
+}
+
+.footer-left ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons img {
+  width: 3rem;
+  padding-right: 1rem;
+}
+
+.navbar-right img {
+  width: 2rem;
+}
+
+form input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: var(--color-orange);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #cc4400;
+}
+
+/* Button styles */
+
+.shop-button {
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: fit-content;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1.5px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.shop-button:hover {
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px #b8bfc3);
+}
+
+/* Font styles */
+
+.ephesis {
+  font-family: "Ephesis";
+  font-size: 3rem;
+}
+
+.title {
+  font-size: var(--title1-size);
+  padding-bottom: 1rem;
+}
+
+/* Responsiveness styling */
+
+@media only screen and (max-width: 800px) {
+  #burger {
+    display: inline;
+    padding-left: 0.5rem;
+  }
+
+  .navbar {
+    width: 100vw;
+    padding-left: 1rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .footer-left ul {
+    padding: 0;
+  }
+
+  .logo {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  .navbar-left {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .footer-logo {
+    display: none;
+  }
 }

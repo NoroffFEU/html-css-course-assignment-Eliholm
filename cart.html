@@ -5,44 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Discover this season's most popular outerwear and jackets at Rainy Days. From classic winter coats to trendy rain jackets - we have everything you need to stay warm and stylish regardless of the weather conditions. Explore our wide range and find your perfect jacket today!">
-    <title>Discover Premium Outerwear for Every Season - Rainy Days</title>
+        content="Review the items in your shopping cart on Rainy Days. Easily manage your purchases and proceed to checkout for a seamless shopping experience. Explore now and ensure you have everything you need before completing your order.">
+    <title>View Your Shopping Cart - Rainy Days</title>
     <link rel="stylesheet" href="src/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar">
-        <section class="navbar-left">
+        <div class="navbar-left">
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </section>
-        <section class="navbar-middle">
+        </div>
+        <div class="navbar-middle">
             <a href="index.html"><img src="assets/images/logo2.png" alt="Rainy Days Logo" class="logo"></a>
-        </section>
-        <section class="navbar-right">
+        </div>
+        <div class="navbar-right">
             <a href="cart.html">
                 <img src="assets/images/shoppingbag.jpg" alt="Shopping Bag Icon"></a>
-            <p>(0)</p>
+            <p>(1)</p>
             <a href="burger.html"><img src="assets/images/burger.jpg" alt="Burger Menu Icon" id="burger"></a>
-        </section>
+        </div>
     </nav>
     <main>
-        <section class="homepage-content">
-            <img src="assets/images/hovedbilde2.png" alt="Woman smiling on mountain hike" id="main-picture">
-            <div class="homepage-right">
-                <h1 id="homepage-h1">Rainy Days</h1>
-                <h2 id="homepage-h2">Comfortable, durable and <span style="color: #318034;">sustainable</span> clothing
-                    <br> for all your future adventures
-                </h2>
-                <a href="shop.html" id="homepage-button">SHOP OUR COLLECTION</a>
+        <section class="cart-container">
+            <h1>YOUR CART</h1>
+            <div class="cart-summary">
+                <img src="assets/images/RainyDays_Jacket7-removebg.png" alt="Tundra Fleece Jacket" class="item-picture">
+                <div class="item-summary">
+                    <h2>Tundra Fleece Jacket</h2>
+                    <p>Khaki Green, M</p>
+                    <p class="in-stock">In stock</p>
+                </div>
+                <div class="cartcount">
+                    <div class="count">
+                        <p>+ 1 -</p>
+                    </div>
+                    <p>$69</p>
+                    <p>X</p>
+                </div>
             </div>
+            <section class="price-info">
+                <p>Item total: $69</p>
+                <p>Shipping: <span class="bold">FREE</span></p>
+                <p class="bold">Total: $69</p>
+                <div class="shop-button"><a href="checkout.html">CONTINUE CHECKOUT</a></div>
+            </section>
         </section>
     </main>
 

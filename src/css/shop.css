@@ -1,0 +1,136 @@
+.shop-page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.womens-info,
+.mens-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #cfe8f2;
+}
+
+.womens-info {
+  background-image: url("header/womens5.jpg");
+}
+
+.mens-info {
+  background-image: url("header/mens.jpg");
+}
+
+.shop-text,
+.shop-title {
+  margin-left: 2rem;
+}
+
+.shop-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
+  width: 40%;
+}
+
+.shop-title {
+  font-family: "Ephesis";
+  font-size: 4rem;
+}
+
+.ephesis-regular {
+  font-family: "Ephesis", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shop-jackets {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+  flex-wrap: wrap;
+}
+
+.shop-picture {
+  height: 200px;
+}
+
+.jacket-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  justify-content: space-evenly;
+}
+
+.jacket-card h2,
+h3 {
+  font-weight: 100;
+  padding-top: 1rem;
+}
+
+.jacket-card h2 {
+  font-size: 1.2rem;
+}
+
+.jacket-card h3 {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.jacket-card:hover {
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px #b8bfc3);
+}
+
+.jacket-image {
+  width: 20rem;
+  padding: 2rem;
+}
+
+.color-options {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.color-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .jacket-card {
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .shop-jackets {
+    padding: 0;
+  }
+
+  .shop-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--p-size);
+    padding-bottom: 0;
+    margin-right: 1rem;
+  }
+
+  .shop-title {
+    font-family: "Ephesis";
+    font-size: 4rem;
+    margin: 0;
+    margin-left: 1.5rem;
+  }
+
+  .shop-page-content {
+    width: 100%;
+  }
+}
